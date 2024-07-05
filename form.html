@@ -6,10 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Student Form</title>
 </head>
-<h1> Submit Your Details Here</h1>
+
+    <header>
+        <td>
+            <h3> Bookish Treasures</h3>
+            <img src="https://i.pinimg.com/474x/fd/85/da/fd85dab7f15338b8050cf1fd297a7921.jpg" height="70">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        </td>
+    </header>
+    <br></br>
+    <br></br>
+    <br></br>
+
+<h1> Book Review Form </h1>
 <br>
-<label for="name_id"> Name:</label>
+<label for="name_id">  First Name:</label>
 <input type="text" id="name" name="name_id">
+</br>
+<br> 
+<label for="lname_id">  Last Name:</label>
+<input type="text" id="lname" name="lname_id">
 </br>
 <br>
 <label for="gender_id"> Gender:</label>
@@ -19,15 +34,41 @@
 <label for="email_id"> Email Id :</label>
 <input type="text" id="email" name="email_id">
 </br>
+<br>
+<label for="book_id">  Favourite Book :</label>
+<input type="file" id="book" name="book_id">
+</br>
+<br>
+<!-- <label for="genre_id"> Genre :</label><div> -->
+    <div>
+        Interest :
+    <input type="radio" id="genre" name="genre_id">Adventure
+    <input type="radio" id="genre" name="genre_id">Science Friction
+    <input type="radio" id="genre" name="genre_id">Fantacy
+    <input type="radio" id="genre" name="genre_id">Mystery
+    
+</div>
+</br>
+<label for="rating">Rating:</label>
+<select id="rating" name="rating" required>
+    <option value="1">⭐</option>
+    <option value="2">⭐⭐</option>
+    <option value="3">⭐⭐⭐</option>
+    <option value="4">⭐⭐⭐⭐</option>
+    <option value="5">⭐⭐⭐⭐⭐</option>
+</select><br><br>
 <!-- <br>
 <label for="rate_id"> How Would You Like To Rate Us  :</label>
 <input type="text" id="rate" name="rate_id">
 </br> -->
+<!-- <br>
+<input type="reset" value="reset">
+</br> -->
 <br>
-<input type="submit" value="Sign Up">
-</br>
-<br>
-<input type="submit" value="Submit">
+<button>
+    <a href="task1.html"> Submit</a>
+</button>
+<!-- <input type="submit" value="Submit"> -->
 </br>
 
 
@@ -35,5 +76,6 @@
 <body>
     
 </body>
+
 
 </html>
